@@ -537,13 +537,4 @@
     <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision= "n" >
         <linkfile src="builder.sh" dest="builder.sh" />
     </project>
-
-    <!-- Device -->
-    <project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="nos" revision="n" />
-
-    <!-- Kernel -->
-    <project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="n" />
-
-    <!-- Blobs -->
-    <project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="n" />
 </manifest>
